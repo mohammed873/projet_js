@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js test</title>
+	<style>
+		.countainer{
+			margin-left:350px;
+			background-color: lightblue;
+			width:40%;
+			height: 150px;
+			margin-top: 300px;
+			}
+			#king{
+				text-align: center;
+			}
+			.form{
+				text-align: center;
+			}
+
+	</style>
+	
+</head>
+<body bgcolor="green">
+
+
+	<div class="countainer">
+		
+			<div class="form">
+				<label></label><br>
+			<input  id = "king" type="text" name="word" placeholder="word">
+	  <button onclick="myFunction()">Results</button> <br><br>
+	  <label id="Results" style=" border: 1px solid; background-color: yellow";></label>
+	</div>
+</div>
+
+	
+	<script>
+		function myFunction() {
+			var king = document.getElementById('king').value;
+			king = king.replace(/[ ]/g," ").length;
+			document.getElementById('Results').innerHTML = king;
+
+		}
+	</script>
+	
+
+
+</body>
+</html>
