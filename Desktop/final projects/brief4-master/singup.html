@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.scss">
+    <script src="main.js"></script>
+    <title>sing-up</title>
+</head>
+<body>
+    <header>
+        <div class="validation-section">
+            <h1>CARS WORLD</h1>
+            <div class="inputs">
+                    <input type="email" name="" id="gmailD" placeholder="Enter Your Email" onkeyup="validmailD()">
+                    <span class="email-span" id="error-mailD"></span>
+                    <input type="password" name="" id="passwordD" placeholder="Enter Your Password"  id="log" onkeyup="validpasswordD()">
+                    <span class="password-span" id="error-passwordD"></span>
+                   <input type="button" value="log in" id="log" onclick="validation()">
+                   <form action="singup.html">
+                    <input type="submit" value="sign in" id="sign">
+                 </form>
+            </div>
+        </div>
+        <div class="header-pic">
+            <img src="pictures/pic1.jpg" alt="">
+            <i class="fa fa-bars" id="menu-btn" onclick="btn()" ondblclick="btn2()"></i>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="reservation.html">RESEVATION</a></li>
+            </ul>
+        </div>
+        <aside class="menu-bar-responsive" id="menu-r">
+                    <h1>CARS WORLD</h1>
+                    <div class="inputs-responsive">
+                        <input type="email" name="" id="gmail" onkeyup="validmail()"> 
+                        <span id="error-mail">*</span> 
+                        <input type="password" name="" id="password" onkeyup="validpassword()">
+                        <span id="error-password"> *</span>
+                        <input type="button" value="log in" id="log" onclick="validationMobile()">
+                        <form action="singup.html">
+                            <input type="submit" value="sign in" id="sign">
+                         </form>
+                    </div>
+                <ul>    
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="reservation.html">RESEVATION</a></li>
+                </ul>  
+        </aside>
+    </header>
+
+    <div class="wrapper3">
+        <div class="countainer">
+           <h2>SIGN UP</h2>
+                    <input type="text" name="" id="full-name" placeholder="Enter Your Full Name" onkeyup="validfullname()">
+                            <div id="erooo1"></div>
+                    <input type="email" name="" id="emailS" placeholder="Enter Your Email" onkeyup="validmailS()">
+                            <div id="erooo2"></div>        
+                    <input type="password" name="" id="passwordS1" placeholder="Enter Your Password" onkeyup="validpasswordS()">
+                            <div id="erooo3"></div>
+                    <input type="password" name="" id="passwordS2" placeholder="Renter Your Password" onkeyup="revalidpassword()">
+                            <div id="erooo4"></div>
+                    <input type="button" value="Sign Up" id="sign-up" onclick="validationS()">
+                    <div class="blank-div"></div>
+        </div> 
+        <div id="mirror">
+           <h2>Confirm Your Personnel Information</h2>
+           <div class = "showme"> 
+               <p> Your Full Name is : <span id="show1"></span></p>
+               <p> Your Adress Mail is : <span id="show2"></span></p>
+               <p> Your password is : <span id="show3"></span></p>
+           </div>
+           <br>
+           <input type="submit" value="Confirm The Information" id="btnSC" onclick="hideshowme()">
+
+        </div> 
+        <div id="pop">
+            <h3>A Pop Must Apear Here !</h3>
+        </div>
+    </div>
+    
+    <div class="blank-div-main"></div>
+
+    <footer>
+        <div class="footer-G">
+                <div id="foo1">
+                    <h1>CARS WORLD</h1>
+                    <div class="cw">
+                        <p>our website is here to serve you and to make you appreciete driving.
+                            follow us for more information about our latest news </p>
+                    </div>
+                    <div class="social-media">
+                        <i class="fa fa-facebook-square" id="media"></i>
+                        <i class="fa fa-twitter-square" id="media"></i>
+                        <i class="fa fa-linkedin" id="media"></i>
+                        <i class="fa fa-instagram" id="media"></i>
+                    </div>
+                </div>
+                <div id="foo2">
+                    <input type="email" name="" id="email1" placeholder="Enter Your Email" onkeyup="validmailF()">
+                    <span id="error-mailF"></span>
+                    <label for="email1">Contact us </label>
+                    <textarea name="" id="comment" cols="30" rows="10" placeholder="Write Your Feedback" onkeyup="validcomment()"></textarea>
+                    <span id="error-commentF"></span>
+                    <input type="button" value="submit" id="submit" onclick="validationF()"> 
+                </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.scss">
+    <script src="main.js"></script>
+    <title>RESEVATION</title>
+</head>
+<body>
+    <header>
+        <div class="validation-section">
+            <h1>CARS WORLD</h1>
+            <div class="inputs">
+                    <input type="email" name="" id="gmailD" placeholder="Enter Your Email" onkeyup="validmailD()">
+                    <span class="email-span" id="error-mailD"></span>
+                    <input type="password" name="" id="passwordD" placeholder="Enter Your Password"  id="log" onkeyup="validpasswordD()">
+                    <span class="password-span" id="error-passwordD"></span>
+                   <input type="button" value="log in" id="log" onclick="validation()">
+                   <form action="singup.html">
+                    <input type="submit" value="sign in" id="sign">
+                 </form>
+            </div>
+        </div>
+        <div class="header-pic">
+            <img src="pictures/pic1.jpg" alt="">
+            <i class="fa fa-bars" id="menu-btn" onclick="btn()" ondblclick="btn2()"></i>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="#">RESEVATION</a></li>
+            </ul>
+        </div>
+        <aside class="menu-bar-responsive" id="menu-r">
+                    <h1>CARS WORLD</h1>
+                    <div class="inputs-responsive">
+                        <input type="email" name="" id="gmail" onkeyup="validmail()"> 
+                        <span id="error-mail">*</span> 
+                        <input type="password" name="" id="password" onkeyup="validpassword()">
+                        <span id="error-password"> *</span>
+                        <input type="button" value="log in" id="log" onclick="validationMobile()">
+                        <form action="singup.html">
+                            <input type="submit" value="sign in" id="sign">
+                         </form>
+                    </div>
+                <ul>    
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="#">RESEVATION</a></li>
+                </ul>  
+        </aside>
+    </header>
+
+
+
+
+    <div class="wrapper2">
+        <div class="main-cont">
+            <h2>RESERVATION</h2>
+                <select id="choice" onmouseup="checkPrice1()">
+                    <option id="h">CHOOSE YOUR CAR</option>
+                    <option id="a1">AUDI A1</option>
+                    <option id="a5">AUDI A2</option>
+                    <option id="a3">AUDI A3</option>
+                </select>
+            <div class="blank-div"></div>
+            <select id="duration" onmouseup="checkPrice1()">
+                <option id="n">TIME DURATION</option>
+                <option id="a1">1 HOUR</option>
+                <option id="a5">4 HOUR</option>
+                <option id="a3">6 HOUR </option>
+            </select>  
+            <div class="blank-div"></div>
+            <div class="reserve-input"> 
+                <input type="tel" placeholder="Enter Your Phone Number" id="phone-number" onkeyup=" validmailRP()" maxlength="10">
+                <span id="eroo1">unvalid phone number</span>
+                <span id="eroo">unvalid mail</span>
+                <input type="email" name="" id="Email-resere" placeholder="Enter Your Email" onkeyup="validmailR()">
+           </div>
+           <div class="blank-div"></div>
+             <div class="price-option">
+                    <div id="price"><p id="price1"></P></div>
+                    <div id="price-time"><p id="price-times"></p></div>
+                    <div id="total-price" onmousedown="checkPrice2()"><p id="price3"></p> </div>
+              </div>
+            <div class="blank-div"></div>  
+                 <button class="submit" id="btn" onclick="validCar()">Confirm Your Car Booking</button>
+            <div class="blank-div"></div>
+        </div>
+
+        <div class="audi-select">
+            <div id="slct1"><img src="pictures/q1.jpg" alt=""></div>
+              <span id="slt1"><p>AUDI Q1</p></span>
+            <div  id="slct2"><img src="pictures/q2.jpg" alt=""></div>
+              <span id="slt2" ><p>AUDI Q2</p></span>
+            <div id="slct3" ><img src="pictures/q3.jpg" alt=""></div>
+              <span id="slt3"><p>AUDI Q3</p></span>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-R">
+                <div id="foo1">
+                    <h1>CARS WORLD</h1>
+                    <div class="cw">
+                        <p>Our Website Is Here To Serve You And To Make You Appreciete Driving.
+                            Follow Us For More Information About Our Latest News </p>
+                    </div>
+                    <div class="social-media">
+                        <i class="fa fa-facebook-square" id="media"></i>
+                        <i class="fa fa-twitter-square" id="media"></i>
+                        <i class="fa fa-linkedin" id="media"></i>
+                        <i class="fa fa-instagram" id="media"></i>
+                    </div>
+                </div>
+                <div id="foo2">
+                    <input type="email" name="" id="email1" placeholder="Enter Your Email" onkeyup="validmailF()">
+                    <span id="error-mailF"></span>
+                    <label for="email1">Contact us </label>
+                    <textarea name="" id="comment" cols="30" rows="10" placeholder="Write Your Feedback" onkeyup="validcomment()"></textarea>
+                    <span id="error-commentF"></span>
+                    <input type="button" value="submit" id="submit" onclick="validationF()"> 
+                </div>
+        </div>
+    </footer>
+</body>
+</html>

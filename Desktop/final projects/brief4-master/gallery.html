@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="main.scss">
+    <script src="main.js"></script>
+    <title>gallery page</title>
+</head>
+<body>
+    <header>
+        <div class="validation-section">
+            <h1>CARS WORLD</h1>
+            <div class="inputs">
+                    <input type="email" name="" id="gmailD" placeholder="Enter Your Email" onkeyup="validmailD()">
+                    <span class="email-span" id="error-mailD"></span>
+                    <input type="password" name="" id="passwordD" placeholder="Enter Your Password"  id="log" onkeyup="validpasswordD()">
+                    <span class="password-span" id="error-passwordD"></span>
+                   <input type="button" value="log in" id="log" onclick="validation()">
+                   <form action="singup.html">
+                    <input type="submit" value="sign in" id="sign">
+                 </form>
+            </div>
+        </div>
+        <div class="header-pic">
+            <img src="pictures/pic1.jpg" alt="">
+            <i class="fa fa-bars" id="menu-btn" onclick="btn()" ondblclick="btn2()"></i>
+        </div>
+        <div class="menu-bar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="reservation.html">RESEVATION</a></li>
+            </ul>
+        </div>
+        <aside class="menu-bar-responsive" id="menu-r">
+                    <h1>CARS WORLD</h1>
+                    <div class="inputs-responsive">
+                        <input type="email" name="" id="gmail" onkeyup="validmail()"> 
+                        <span id="error-mail">*</span> 
+                        <input type="password" name="" id="password" onkeyup="validpassword()">
+                        <span id="error-password"> *</span>
+                        <input type="button" value="log in" id="log" onclick="validationMobile()">
+                        <form action="singup.html">
+                            <input type="submit" value="sign in" id="sign">
+                         </form>
+                    </div>
+                <ul>    
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="reservation.html">RESEVATION</a></li>
+                </ul>  
+        </aside>
+    </header>
+
+
+    <div class="wrapper1">
+        <p id="title1"><b>Discover The New Audi Cars</b></p>
+        <div class="slider">
+            <div id="slide-items">
+                <div id="items-active">
+                    <img src="pictures/pic2.jpg" alt="" id="slide">
+                </div> 
+            </div>
+        </div>
+       <div id="next" onclick="ChangeSlide(1)" ><i class="fa fa-angle-right"></i></div> 
+       <div id="prev" onclick="ChangeSlide(-1)  "><i class="fa fa-angle-left"></i></div>  
+
+        <h1 id="title2"><b> Audi is always proud to presents it's cars</b></h1>
+        <div class="slider-gallery" id="number1">
+            <div class="child1">
+                <img src="pictures/pic12.jpg" alt=""> 
+            </div>
+            <div class="child2">
+                <img src="pictures/pic11.jpg" alt="">
+            </div>
+            <div class="child3">
+                <img src="pictures/pic10.jpg" alt="">
+            </div>
+        </div> 
+        <div class="slider-gallery" id="number2">
+            <div class="child1">
+                <img src="pictures/pic9.jpg" alt=""> 
+            </div>
+            <div class="child2">
+                <img src="pictures/pic8.jpg" alt="">
+            </div>
+            <div class="child3">
+                <img src="pictures/pic7.jpg" alt="">
+            </div>
+        </div>   
+        <div class="slider-gallery" id="number3">
+            <div class="child1">
+                <img src="pictures/pic5.jpg" alt="">
+            </div>
+            <div class="child2">
+                <img src="pictures/pic5.jpg" alt="">
+            </div>
+            <div class="child3" id="n">
+                <img src="pictures/pic4.jpg" alt="">
+            </div>
+        </div>   
+    
+</div>
+
+    <footer>
+        <div class="footer-G">
+                <div id="foo1">
+                    <h1>CARS WORLD</h1>
+                    <div class="cw">
+                        <p>Our Website Is Here To Serve You And To Make You Appreciete Driving.
+                            Follow Us For More Information About Our Latest News </p>
+                    </div>
+                    <div class="social-media">
+                        <i class="fa fa-facebook-square" id="media"></i>
+                        <i class="fa fa-twitter-square" id="media"></i>
+                        <i class="fa fa-linkedin" id="media"></i>
+                        <i class="fa fa-instagram" id="media"></i>
+                    </div>
+                </div>
+                <div id="foo2">
+                    <input type="email" name="" id="email1" placeholder="Enter Your Email" onkeyup="validmailF()">
+                    <span id="error-mailF"></span>
+                    <label for="email1">Contact us </label>
+                    <textarea name="" id="comment" cols="30" rows="10" placeholder="Write Your Feedback" onkeyup="validcomment()"></textarea>
+                    <span id="error-commentF"></span>
+                    <input type="button" value="submit" id="submit" onclick="validationF()"> 
+                </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
