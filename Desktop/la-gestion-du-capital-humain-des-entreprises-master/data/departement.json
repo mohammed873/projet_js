@@ -1,0 +1,58 @@
+[
+     {
+          "ID": "1",
+          "Nom": "elbouinanny",
+          "chef_département": "shark",
+          "description": "ppp",
+          "idmatricule": 1
+     },
+     {
+          "ID": "3",
+          "Nom": "reda",
+          "chef_département": "eee",
+          "description": "ultras",
+          "idmatricule": 2
+     },
+     {
+          "ID": "1",
+          "Nom": "welcome",
+          "chef_département": "shark",
+          "description": "maroc",
+          "idmatricule": 3
+     },
+     {
+          "ID": "4",
+          "Nom": "AHMED",
+          "chef_département": "chawki",
+          "description": "ppp",
+          "idmatricule": 4
+     },
+     {
+          "ID": "5",
+          "Nom": "YOUCODE",
+          "chef_département": "ddd",
+          "description": "safi",
+          "idmatricule": 5
+     },
+     {
+          "ID": "1",
+          "Nom": "whh",
+          "chef_département": "eee",
+          "description": "jeep",
+          "idmatricule": 6
+     },
+     {
+          "ID": "1",
+          "Nom": "info",
+          "chef_département": "mehdi",
+          "description": "info",
+          "idmatricule": 7
+     },
+     {
+          "ID": "2",
+          "Nom": "ayoub",
+          "chef_département": "shark",
+          "description": "ppp",
+          "idmatricule": 8
+     }
+]

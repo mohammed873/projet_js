@@ -1,0 +1,90 @@
+[
+     {
+          "Matricule": "3",
+          "id": 1,
+          "nom": "ocsfoot",
+          "Prenom": "EFB",
+          "Age": "34",
+          "salaire": "39999"
+     },
+     {
+          "Matricule": "3",
+          "id": 2,
+          "nom": "Ahmed",
+          "Prenom": "AAA",
+          "Age": "23",
+          "salaire": "20000 dh"
+     },
+     {
+          "Matricule": "1",
+          "id": 3,
+          "nom": "ABD",
+          "Prenom": "RHN",
+          "Age": "23",
+          "salaire": "10000 DH"
+     },
+     {
+          "Matricule": "1",
+          "id": 4,
+          "nom": "USA",
+          "Prenom": "yassine",
+          "Age": "20ans",
+          "salaire": "39999"
+     },
+     {
+          "Matricule": "2",
+          "id": 5,
+          "nom": "salarie1",
+          "Prenom": "imad",
+          "Age": "25ans",
+          "salaire": "39999"
+     },
+     {
+          "Matricule": "7",
+          "id": 6,
+          "nom": "ff",
+          "Prenom": "f",
+          "Age": "12",
+          "salaire": "22222222"
+     },
+     {
+          "Matricule": "7",
+          "id": 7,
+          "nom": "az",
+          "Prenom": "aza",
+          "Age": "azaz",
+          "salaire": "aza"
+     },
+     {
+          "Matricule": "7",
+          "id": 8,
+          "nom": "az",
+          "Prenom": "az",
+          "Age": "az",
+          "salaire": "aza"
+     },
+     {
+          "Matricule": "8",
+          "id": 9,
+          "nom": "el bouinany",
+          "Prenom": "reda",
+          "Age": "23",
+          "salaire": "10000"
+     },
+     {
+          "Matricule": "3",
+          "id": 10,
+          "nom": "youcode",
+          "Prenom": "elhachimi",
+          "Age": "21",
+          "salaire": "50000 dh"
+     },
+     {
+          "Matricule": "3",
+          "id": 11,
+          "nom": "mahdi",
+          "Prenom": "gkgkgn",
+          "Age": "21",
+          "salaire": "50000 dh"
+     }
+]
